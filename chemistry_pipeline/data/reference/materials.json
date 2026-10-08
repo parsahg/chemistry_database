@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "classes": {
+    "pure_compound": {
+      "description": "A chemically defined compound with a molecular formula."
+    },
+    "mixture": {
+      "description": "A material composed of multiple chemical components without one unique molecular formula."
+    },
+    "biological_material": {
+      "description": "A biologically derived material with composition that may vary between sources or batches."
+    },
+    "unknown": {
+      "description": "A material whose chemical classification has not yet been established."
+    }
+  },
+  "materials": [
+    {
+      "material_id": "MAT-0001",
+      "original_names": [
+        "lactose",
+        "D-lactose",
+        "milk sugar"
+      ],
+      "canonical_name": "lactose",
+      "class": "pure_compound",
+      "identifiers": {
+        "pubchem_cid": 6134
+      },
+      "chemistry": {
+        "formula": "C12H22O11",
+        "molecular_weight": 342.3
+      },
+      "provenance": [],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "material_id": "MAT-0002",
+      "original_names": [
+        "peptone"
+      ],
+      "canonical_name": "peptone",
+      "class": "mixture",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition must be obtained from the relevant source."
+    },
+    {
+      "material_id": "MAT-0003",
+      "original_names": [
+        "yeast extract"
+      ],
+      "canonical_name": "yeast extract",
+      "class": "biological_material",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition may vary between products and sources."
+    },
+    {
+      "material_id": "MAT-0004",
+      "original_names": [
+        "whey"
+      ],
+      "canonical_name": "whey",
+      "class": "biological_material",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition is source-dependent."
+    },
+    {
+      "material_id": "MAT-0005",
+      "original_names": [
+        "whey protein concentrate",
+        "WPC"
+      ],
+      "canonical_name": "whey protein concentrate",
+      "class": "mixture",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition depends on WPC grade and source."
+    },
+    {
+      "material_id": "MAT-0006",
+      "original_names": [
+        "molasses"
+      ],
+      "canonical_name": "molasses",
+      "class": "mixture",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition is source-dependent."
+    },
+    {
+      "material_id": "MAT-0007",
+      "original_names": [
+        "corn steep liquor"
+      ],
+      "canonical_name": "corn steep liquor",
+      "class": "mixture",
+      "identifiers": {},
+      "chemistry": {
+        "formula": null,
+        "molecular_weight": null
+      },
+      "provenance": [],
+      "confidence": "medium",
+      "notes": "Composition is source-dependent."
+    },
+    {
+      "material_id": "MAT-0008",
+      "original_names": [
+        "glucose"
+      ],
+      "canonical_name": "glucose",
+      "class": "pure_compound",
+      "identifiers": {
+        "pubchem_cid": 5793
+      },
+      "chemistry": {
+        "formula": "C6H12O6",
+        "molecular_weight": 180.16
+      },
+      "provenance": [
+        {
+          "source": "PubChem",
+          "reference": "CID 5793"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+numpy
+pandas
+openpyxl
+scipy
+pyyaml
+requests
+sympy
+pytest

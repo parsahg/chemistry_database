@@ -1,0 +1,12 @@
+{
+  "grain": "one row = one experimental run/condition",
+  "missing_value_rule": "missing means unreported/unknown; never treat missing as zero",
+  "raw_files_unchanged": true,
+  "rows": 148,
+  "columns": 83,
+  "sources": [
+    "data_search1.xlsx",
+    "data_search2.xlsx",
+    "our_lab_data.xlsx"
+  ]
+}
